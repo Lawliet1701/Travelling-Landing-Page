@@ -1,0 +1,348 @@
+@font-face {
+    font-family: 'Conv_Tabarra-Black';
+    src: url('../fonts/Tabarra-Black.eot');
+    src: local('☺'), url('../fonts/Tabarra-Black.woff') format('woff'), url('../fonts/Tabarra-Black.ttf') format('truetype'), url('../fonts/Tabarra-Black.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Conv_PFSquareSansPro-Bold';
+    src: url('../fonts/PFSquareSansPro-Bold.eot');
+    src: local('☺'), url('../fonts/PFSquareSansPro-Bold.woff') format('woff'), url('../fonts/PFSquareSansPro-Bold.ttf') format('truetype'), url('../fonts/PFSquareSansPro-Bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin-top: 0px;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+th {
+    text-align: center;
+}
+
+h1 {
+    color: #148383;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background: #337AB7;
+}
+
+.navbar-fixed-top {
+    border-width: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-brand {
+    font-family: "Conv_Tabarra-Black";
+    font-size: 30px;
+    padding-left: 40px;
+    text-shadow: #000 0 0 5px;
+}
+
+.menu-item-1 {
+    font-weight: bold;
+}
+
+.dropdown-menu {
+    background-color: #337AB7;
+    border: 0px;
+    box-shadow: 0 13px 12px rgba(0, 0, 0, 0.176);
+}
+
+.dropdown-menu > li > a {
+    color: #fff;
+    font-weight: bold;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    background-color: rgb(0, 39, 255);
+    text-decoration: none;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #fff;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #fff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    background-color: transparent;
+    color: #fff;
+}
+
+a.mybtn {
+    color: #fff;
+    text-decoration: none;
+    background: #337AB7;
+    padding: 15px 40px;
+    outline: none;
+    font-family: 'Verdana';
+    font-weight: bold;
+}
+
+a.mybtn:hover {
+    background: rgb(0, 39, 255);
+}
+
+
+/* при наведении курсора мышки */
+
+a.mybtn:active {
+    background: rgb(0, 39, 255);
+}
+
+.button {
+    padding-bottom: 340px;
+}
+
+header {
+    background-attachment: scroll;
+    background: url('../img/bg-image.jpg') no-repeat center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.headertext {
+    padding-top: 300px;
+    padding-bottom: 100px;
+    font-family: 'Conv_Tabarra-Black';
+    font-size: 60px;
+    color: #fff;
+    text-shadow: #000 0 0 5px;
+}
+
+@media screen and (max-width: 568px) {
+    .headertext {
+        font-size: 40px;
+    }
+}
+
+h4 {
+    font-family: 'Conv_PFSquareSansPro-Bold';
+}
+
+.section-heading {
+    padding-top: 70px;
+    font-family: 'Conv_PFSquareSansPro-Bold';
+    font-size: 50px;
+}
+
+.section-subheading {
+    padding-bottom: 30px;
+}
+
+#services .text-desc {
+    font-size: 18px;
+}
+
+#services h4 {
+    font-size: 24px;
+}
+
+.table {
+    max-width: 75%;
+    margin: auto;
+    margin-bottom: 65px;
+    font-family: "Verdana", sans-serif;
+    ;
+}
+
+.table-auto {
+    width: auto!important;
+}
+
+.flag-icon {
+    width: 30px;
+    margin-right: 5px;
+}
+
+#flights {
+    margin-bottom: 100px;
+}
+
+a.button-full {
+    color: #fff;
+    text-decoration: none;
+    background: #337AB7;
+    padding: 18px 37px;
+    outline: none;
+    font-family: 'Verdana';
+    font-weight: bold;
+}
+
+a.button-full:hover {
+    background: rgb(0, 39, 255);
+}
+
+a.button-full:active {
+    background: rgb(0, 39, 255);
+}
+
+a.button-desc {
+    color: #fff;
+    text-decoration: none;
+    background: #337AB7;
+    padding: 6px 10px;
+    outline: none;
+    font-family: 'Verdana';
+    font-weight: bold;
+}
+
+a.button-desc:hover {
+    background: rgb(0, 39, 255);
+}
+
+a.button-desc:active {
+    background: rgb(0, 39, 255);
+}
+
+#services {
+    margin-bottom: 40px;
+}
+
+.img-city {
+    width: 250px;
+}
+
+#top-places .section-heading {
+    padding-bottom: 10px;
+}
+
+hr {
+    border-color: #6f6f6f;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 40px;
+}
+
+#top-places {
+    margin-bottom: 80px;
+}
+
+#top-places h4 {
+    padding-bottom: 30px;
+}
+
+#contacts {
+    background: #337AB7 none repeat scroll 0 0;
+    color: #f6f6f6;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 35px 0;
+}
+
+#contacts a {
+    color: #f6f6f6;
+    font-weight: bold;
+}
+
+#contacts ol,
+ul {
+    list-style: none;
+}
+
+#contacts .fa-circle {
+    color: #000;
+}
+
+#contacts .contactinfo {
+    display: inline;
+    font-weight: bold;
+}
+
+#contacts .logo-text {
+    font-family: "Conv_Tabarra-Black";
+    font-size: 30px;
+    text-shadow: #000 0 0 5px;
+    padding-bottom: 10px;
+}
+
+#contacts .contacts-text {
+    font-size: 18px;
+    text-shadow: #000 0 0 5px;
+}
+
+#contacts .contacts-title {
+    font-weight: bold;
+    text-shadow: #000 0 0 5px;
+}
+
+
+@media (max-width: 500px){
+    #contacts .col-xs-6 {
+        width: 100%;
+        padding-left: 20px;
+    }
+}
+
+.cont_logo {
+    width: 150px;
+}
+
+.my {
+    padding-top: 60px;
+    margin-left: -30px;
+    margin-right: 30px;
+}
+
+footer {
+    background: #f4f4f6 none repeat scroll 0 0;
+    color: #434343;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 15px;
+    padding: 12px 0;
+}
+
+footer p {
+    margin-top: 15px;
+}
+
+footer ul li:first-child {
+    padding-left: 0;
+}
+
+footer ul li {
+    border-right: 1px solid #ccc;
+    display: inline-block;
+    margin-top: 15px;
+    padding: 0 15px;
+}
